@@ -49,7 +49,7 @@ class DownHtml(object):
 
     def req_ser(self):
         """
-        请求服务器
+        请求服务器@
         :return:
         """
         return requests.get(self.url, headers=self.headers, timeout=5)
